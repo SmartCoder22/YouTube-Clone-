@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+    /* background-color: #120e0e; */
+    
+}
+
+/* ----------First Nav Bar---------- */
+
+.navbar {
+    height: 56px;
+    background-color: #120e0e;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ---------Box1-------- */
+
+.nav-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+
+}
+
+.nav-icon :hover {
+    background-color: #ffffff14;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.a{
+    font-size: 25px;
+}
+
+/* ---------Box2-------- */
+
+.nav-logo {
+    height: 56px;
+    width: 165px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url("yotubelogo.jpg");
+    width: 210px;
+    height: 45px;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+/* ---------Box3-------- */
+
+.nav-search {
+    display: flex;
+    height: 45px;
+    width: 620px;
+    background-color: transparent;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.search-input {
+    width: 500px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 2px solid #ffffff14;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 50px;
+
+}
+
+/* ---------Box4-------- */
+
+.search-icon {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff14;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    cursor: pointer;
+    background-color: #ffffff14;
+}
+
+.search-icon :hover {
+    background-color: #ffffff14;
+    width: 70px;
+    height: 50px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ---------Box5-------- */
+
+.Speak {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff14;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #ffffff14;
+}
+
+.Speak :hover {
+    background-color: transparent;
+    width: 60px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+
+}
+
+/* ---------Box6-------- */
+
+.cam {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.cam :hover {
+        background-color: #ffffff14;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/* ---------Box7-------- */
+
+.notify {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.notify :hover {
+    background-color: #ffffff14;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ---------Box8-------- */
+
+.profile-logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.profile-logo :hover {
+    background-color: #ffffff14;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ----------Second Nav Bar---------- */
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 30px;
+    background-color: #120e0e;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 85vw;
+    flex-direction: column;
+    height: 1400px;    
+   
+}
+
+.add {
+    height: 15px;
+    margin-left: 5px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #ffffff14;
+    cursor: pointer; 
+}
+
+.suggest{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggest :hover{
+    background-color: transparent;
+    border: 1px solid #ffffff14;
+}
+
+/* ----------Vertical Nav Bar---------- */
+
+.Menu{
+    display: flex;
+}
+
+.menu{
+    display: inline-block;
+    width: 15vw;
+    background-color:#120e0e;
+    color: white;
+    padding-top: 40px; 
+}
+
+.point {
+    cursor: pointer;
+   
+}
+
+.point :hover{
+    background-color: #ffffff14;
+    border-radius: 3px;
+    height: 30px;
+    padding-top: 10px;
+
+}
+
+.copyright {
+    margin-left: 20px;
+    font-size: 0.8rem;
+    font-family: arial;
+    color: #ffffff99;
+    
+}
+
+.copyright1 {
+    margin-left: 20px;
+    color: #ffffff55;
+    font-size: 1rem;
+}
+
+/* ----------Third Nav Bar---------- */
+
+.Main-Page{  
+    height:1500px;
+    width: 85vw;
+    background-color: #120e0e;
+    margin-top: 25px;
+
+}
+iframe{
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;
+}
+
+.widio {
+    height: 250px;
+    width: 330px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.wideo-title {
+    height: 80px;
+    width: 330px;
+    border-radius: 15px;
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.inline {
+    display: inline-flex;
+    
+}
+
+#vid-logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.xx{
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 2px;
+    font-family: Arial;
+    font-weight: 600;
+}
+.yy {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#vid-t {
+    text-align: left;
+    font-size: 0.8rem;
+    font-family: Arial;
+    margin-left: 62px;
+    margin-top: 5px;
+    color: hwb(0 76% 22% / 0.643);
+    font-weight: 400;
+}
+
+.short-t {
+    font-weight: 900;
+    text-align: left;
+    font-size: x-large;
+    margin-left: 80px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shorts {
+    width: 30px;
+    height: 100px;
+    background-color: red;
+}
+
+#cross {
+    text-align: right;
+    margin-right: 70px;
+    font-size: 2rem;
+}
+
+.short {
+    width: 180px;
+    height: 330px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+
+
+
